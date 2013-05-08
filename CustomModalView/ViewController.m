@@ -28,7 +28,7 @@
 {
    AnotherViewController *vc = [[AnotherViewController alloc] initWithDefaultNib];
    [vc setDelegate:self];
-   [vc setEdgeInsets:UIEdgeInsetsMake(100, 8, 100, 10)];
+   [vc setEdgeInsets:UIEdgeInsetsMake(10, 8, 10, 8)];
    
    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:vc];
    
