@@ -7,7 +7,6 @@
 //
 
 #import "WPSModalViewController.h"
-#import <QuartzCore/QuartzCore.h>
 
 @interface WPSModalViewController ()
 @property (nonatomic, strong) IBOutlet UIView *containerView;
