@@ -6,9 +6,11 @@ This is a sample iPhone project showing one way to display a custom modal view.
 How to Use
 ----------
 
-Your view controller must inherit from `WPSModalViewController` to display the view as a custom modal view.
+Your view controller must inherit from `WPSModalViewController` to display as a custom modal view.
 
 Use the `edgeInsets` property on `WPSModalViewController` to control the edge insets for the modal view. The default edge insets is `(8, 8, 8, 8)`.
+
+To display the modal view, import the category file `UIViewController+WPSKit.h` and call the category method `-wps_presentModalViewController:completion:`. To dismiss the modal view, call the category method `-wps_dismissModalViewControllerWithCompletion:`.
 
 Known Issues
 ============
