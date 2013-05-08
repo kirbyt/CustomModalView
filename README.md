@@ -1,10 +1,8 @@
-CustomModalView
-===============
+# CustomModalView
 
 This is a sample iPhone project showing one way to display a custom modal view. 
 
-How to Use
-----------
+## How to Use
 
 Your view controller must inherit from `WPSModalViewController` to display as a custom modal view.
 
@@ -12,13 +10,19 @@ Use the `edgeInsets` property on `WPSModalViewController` to control the edge in
 
 To display the modal view, import the category file `UIViewController+WPSKit.h` and call the category method `-wps_presentModalViewController:completion:`. To dismiss the modal view, call the category method `-wps_dismissModalViewControllerWithCompletion:`.
 
-Known Issues
-============
+# Known Issues
 
 - Does not support rotation.
 
-License
-=======
+# Support, Bugs and Feature requests
+
+There is absolutely **no support** offered for this project. You're on your own. If you want to submit a feature request, please do so via [the issue tracker on github](http://github.com/kirbyt/CustomModalView/issues). Please note, however, new features will only be added if and when I have the spare time and only if I find the feature interesting.
+
+If you want to submit a bug report, please do so via the [issue tracker](http://github.com/kirbyt/CustomModalView/issues). Include a diagnosis of the problem and a suggested fix (in code) with the report. If you're using my custom modal view hack, then you're a developer - so I expect you to do your homework and provide a fix along with each bug report. You can also submit pull requests or patches.
+
+Please don't submit bug reports without fixes!
+
+# License
 
 The MIT License
 
